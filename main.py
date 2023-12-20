@@ -91,11 +91,11 @@ def main():
     \x1b[96mKernel: \x1b[93mCybersecurity & Software Engineering  \x1b[94m#FCSE\x1b[0m
     \x1b[96mUptime: \x1b[93m{user_age.years} years, {user_age.months} months, {user_age.days} days\x1b[0m
     \x1b[96mIDE:    \x1b[93mVSCode\x1b[0m
-    
+
     \x1b[30;101mContact:\x1b[0m
     --------------
     \x1b[96mTelegram:      \x1b[93m@h3xcode\x1b[0m
-    
+
     \x1b[30;101mGitHub Stats:\x1b[0m
     --------------
     \x1b[96mUser Rating: \x1b[93m{git_user_details.user_rank.level}\x1b[0m
@@ -156,23 +156,16 @@ def main():
     t.gen_text("", t.curr_row, count=300, contin=True)
 
     t.gen_gif()
-    image = gifos.utils.upload_imgbb("output.gif")  # 1.5 days expiration
+    image = gifos.utils.upload_imgbb("output.gif", 129600)  # 1.5 days expiration
     readme_file_content = rf"""<div align="justify">
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="{image.url}">
     <source media="(prefers-color-scheme: light)" srcset="{image.url}">
-    <img alt="GIFOS" src="{image.url}">
+    <img alt="H3XOS" src="{image.url}">
 </picture>
 
 <sub><i>Generated automatically using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) on {time_now}</i></sub>
-
-<details>
-<summary>More details</summary>
-
-</details>
-</div>
-
-<!-- Image deletion URL: {image.delete_url} -->"""
+</div>"""
     with open("README.md", "w") as fp:
         fp.write(readme_file_content)
         print("INFO: README.md file generated")
