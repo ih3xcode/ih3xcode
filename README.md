@@ -1,9 +1,9 @@
 <div align="justify">
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/gDC5rT8/output-gif.gif">
-    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/gDC5rT8/output-gif.gif">
-    <img alt="H3XOS" src="https://i.ibb.co/gDC5rT8/output-gif.gif">
+    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/h1h2v9R/output-gif.gif">
+    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/h1h2v9R/output-gif.gif">
+    <img alt="H3XOS" src="https://i.ibb.co/h1h2v9R/output-gif.gif">
 </picture>
 
-<sub><i>Generated automatically using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) on Wed Dec 18 03:54:19 AM EET 2024</i></sub>
+<sub><i>Generated automatically using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) on Thu Dec 19 03:55:22 AM EET 2024</i></sub>
 </div>
